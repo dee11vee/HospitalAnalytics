@@ -19,7 +19,7 @@ if 'input_data' not in st.session_state:
 
 # Function to check credentials
 def check_credentials(username, password):
-    return username == "rahul" and password == "rahul"
+    return username == "username" and password == "password"
 
 # Login and Signup
 if not st.session_state['authenticated']:
